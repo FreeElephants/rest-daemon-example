@@ -32,7 +32,7 @@ $address = '0.0.0.0';
 $origin = ['*'];
 
 $routes = require __DIR__ . '/../config/routes.php';
-$injector = new InjectorBuilder();
+$injector = (new InjectorBuilder())->buildFromArray([]);
 $server = new RestServer($httpHost, $port, $address, $origin, $httpDriverClass);
 $restServerBuilder = new RestServerBuilder($injector);
 $restServerBuilder->getEndpointFactory()->allowGlobalRequestAllowHeaderReflecting(false);
