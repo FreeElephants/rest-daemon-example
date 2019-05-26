@@ -1,7 +1,7 @@
 PATH := tools:$(PATH)
 
 docker-build:
-	docker build  -t free-elephants/rest-daemon-uptime .
+	docker build  -t free-elephants/rest-daemon-example .
 
 composer-install:
 	composer install
