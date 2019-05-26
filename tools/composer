@@ -8,7 +8,7 @@ docker run --rm --interactive ${USE_TTY} \
     --user $UID:$UID \
     --volume /etc/passwd:/etc/passwd:ro \
     --volume /etc/group:/etc/group:ro \
-    --volume $PWD:/srv/rest-daemon-uptime \
+    --volume $PWD:/srv/rest-daemon-example \
     --volume $HOME/.composer:/tmp/.composer \
     --env COMPOSER_HOME=/tmp/.composer \
-    free-elephants/rest-daemon-uptime composer "$@"
+    free-elephants/rest-daemon-example composer "$@"

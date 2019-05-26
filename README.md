@@ -1,6 +1,6 @@
 # Rest Daemon Server Instance Example
 
-Simplest rest server implementation powered by Rest Daemon. 
+Simplest rest server implementation powered by [Rest Daemon](https://github.com/FreeElephants/rest-daemon). 
 Show self uptime and total number of handled requests. 
 
 Application hosted at [http://rest-daemon-example.samizdam.net:8080](http://rest-daemon-example.samizdam.net:8080)
