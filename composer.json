@@ -7,23 +7,10 @@
         "free-elephants/di": "*",
         "free-elephants/rest-daemon": "*"
     },
-    "require-dev": {
-        "phpunit/phpunit": "^6.5"
-    },
     "autoload": {
         "psr-4": {
             "FreeElephants\\RestDaemonExample\\": [
                 "src/FreeElephants/RestDaemonExample"
-            ]
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "FreeElephants\\RestDaemonExample\\": [
-                "src/FreeElephants/RestDaemonExample/"
-            ],
-            "Fixtures\\": [
-                "tests/Fixtures/"
             ]
         }
     }
