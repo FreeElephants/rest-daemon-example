@@ -3,7 +3,7 @@
 Simplest rest server implementation powered by Rest Daemon. 
 Show self uptime and total number of handled requests. 
 
-Application hosted at http://rest-daemon-example.samizdam.net:8080
+Application hosted at [http://rest-daemon-example.samizdam.net:8080](http://rest-daemon-example.samizdam.net:8080)
 
 ## Install
 ```
