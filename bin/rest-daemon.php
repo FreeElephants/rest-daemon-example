@@ -26,8 +26,8 @@ use Psr\Http\Message\ServerRequestInterface;
 $httpDriverClass = getenv('DRIVER_CLASS') ?: RestServer::DEFAULT_HTTP_DRIVER;
 //$httpDriverClass = getenv('DRIVER_CLASS') ?: RestServer::AERYS_HTTP_DRIVER;
 
-$httpHost = '127.0.0.1';
-$port = 8080;
+$httpHost = getenv('HTTP_HOST') ?: '127.0.0.1';
+$port = getenv('HTTP_PORT') ?: 8080;
 $address = '0.0.0.0';
 $origin = ['*'];
 

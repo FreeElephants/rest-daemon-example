@@ -8,6 +8,7 @@ composer-install:
 
 run-server:
 	docker run -d \
+	-e HTTP_HOST=rest-daemon-example.samizdam.net \
     --name rest-daemon-example \
     --volume `pwd`:/srv/rest-daemon-example \
     --publish 8080:8080 \
